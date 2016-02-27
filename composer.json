@@ -1,0 +1,25 @@
+{
+  "name": "blake/traits",
+  "description": "Traits for various purposes.",
+  "type": "library",
+  "license": "MIT",
+  "keywords": [
+    "traits"
+  ],
+  "homepage": "https://github.com/blake/php-traits",
+  "require": {
+    "php": ">=5.5.9"
+  },
+  "require-dev": {
+    "phpspec/phpspec": "~2.0"
+  },
+  "config": {
+    "bin-dir": "bin"
+  },
+  "autoload": {
+    "psr-4": {
+      "Blake\\Traits\\": "src",
+      "Blake\\Mock\\Traits\\": "mocks"
+    }
+  }
+}
