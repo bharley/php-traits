@@ -27,7 +27,7 @@ trait Properties
      *
      * @return mixed The value of the property or `null` if it's not accessible or does not exist
      */
-    public function __get(string $name)
+    public function __get($name)
     {
         if (!property_exists($this, 'hiddenProperties') || !in_array($name, $this->hiddenProperties)) {
             $methodName = 'get' . ucfirst($name);
@@ -44,7 +44,7 @@ trait Properties
      * @param string $name  The property to set
      * @param mixed  $value The value to set the property to
      */
-    public function __set(string $name, $value)
+    public function __set($name, $value)
     {
         $canSet = (!property_exists($this, 'hiddenProperties')
                 || !in_array($name, $this->hiddenProperties)
