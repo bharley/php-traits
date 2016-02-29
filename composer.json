@@ -6,7 +6,7 @@
   "keywords": [
     "traits"
   ],
-  "homepage": "https://github.com/blake/php-traits",
+  "homepage": "https://github.com/bharley/php-traits",
   "require": {
     "php": ">=5.5.9"
   },

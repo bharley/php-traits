@@ -18,7 +18,7 @@ trait Properties
     /**
      * Define this in a class that uses this trait.
      *
-     * @var array Prevents properties from being exposed via the magic getter
+     * @var array Prevents properties from being exposed via the magic setter
      */
     // private $readOnlyProperties = [];
 
